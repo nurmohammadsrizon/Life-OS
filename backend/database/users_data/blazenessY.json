@@ -1,0 +1,74 @@
+{
+    "goal": "create an note about relativity",
+    "schema": [
+        {
+            "id": "research_papers_read",
+            "title": "Research papers read",
+            "description": "Read foundational papers and articles on special and general relativity.",
+            "type": "count",
+            "target": 10,
+            "unit": "papers",
+            "current_value": 43,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "study_hours_logged",
+            "title": "Study hours logged",
+            "description": "Dedicate focused hours to understanding time dilation, spacetime curvature, and mass-energy equivalence.",
+            "type": "hours",
+            "target": 25,
+            "unit": "hours",
+            "current_value": 54,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "math_derivations_completed",
+            "title": "Math derivations completed",
+            "description": "Work through and write down the core mathematical proofs like Lorentz transformations.",
+            "type": "count",
+            "target": 5,
+            "unit": "derivations",
+            "current_value": 545,
+            "progress": 100,
+            "completed": true
+        },
+        {
+            "id": "concept_mapping_drafted",
+            "title": "Concept mapping drafted",
+            "description": "Create visual outlines connecting gravity, acceleration, and the speed of light.",
+            "type": "boolean",
+            "completed": true,
+            "current_value": 1,
+            "progress": 100
+        },
+        {
+            "id": "draft_completion_percentage",
+            "title": "Draft completion percentage",
+            "description": "Track the overall writing and structuring progress of the note.",
+            "type": "percentage",
+            "target": 100,
+            "unit": "%",
+            "current_value": 4545,
+            "progress": 100
+        },
+        {
+            "id": "peer_review_feedback_received",
+            "title": "Peer review feedback received",
+            "description": "Have a physics-literate person review the note for accuracy and clarity.",
+            "type": "boolean",
+            "completed": true,
+            "current_value": 1,
+            "progress": 100
+        },
+        {
+            "id": "final_revision_polished",
+            "title": "Final revision polished",
+            "description": "Incorporate corrections and format equations cleanly for the final note output.",
+            "type": "progress",
+            "current_value": 544,
+            "progress": 100
+        }
+    ]
+}
